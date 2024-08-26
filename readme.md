@@ -41,17 +41,16 @@ Implementei uma verificação que altera o layout da interface com base na inter
 ## Resultado do Projeto:
 
 <div align="center">
-**1. Layout inicial:**
+
 <img src="imagens/resultado1.png" width="80%" style="border-radius:30px;">
 
-**2. Layout com Texto criptografado/descriptografado:**
 <img src="imagens/resultado2.png" width="80%" style="border-radius:30px;">
 
 </div>
 
-**Próximos Passos:**
+# Próximos Passos
 
-Embora o projeto atenda aos requisitos básicos no momento, tenho planos para aprimorá-lo ainda mais:
+Embora o projeto atenda aos requisitos básicos atualmente, tenho planos para aprimorá-lo, adicionando recursos que não foram implementados devido ao prazo de entrega.
 
 __1. Responsividade:__ Adicionar estilos responsivos para garantir uma ótima experiência em diferentes dispositivos e tamanhos de tela.
 <br>__2. Novas Funcionalidades:__ Implementar novos recursos que agreguem valor e melhorem a usabilidade da aplicação.
@@ -59,4 +58,4 @@ __1. Responsividade:__ Adicionar estilos responsivos para garantir uma ótima ex
 <br>__4. Testes e Depuração:__ Adicionar testes unitários e de integração para garantir a estabilidade e identificar possíveis problemas.
 <br>__5. Documentação:__ Criar uma documentação abrangente, incluindo instruções de instalação, uso e contribuição.
 
-Essas melhorias futuras visam transformar este projeto em uma aplicação mais robusta, eficiente e fácil de manter. Nesta versão revisada, organizei melhor as informações, adicionei subtítulos para clareza e corrigi alguns erros de digitação. Espero que esta versão aprimorada transmita suas intenções de forma mais efetiva.
+Essas melhorias futuras visam deixar esse projeto mais robusto.
