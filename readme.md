@@ -7,7 +7,7 @@ Challenge ONE
 
 ## Resumo do Projeto:
 
-Olá! Neste projeto, Neste projeto, desenvolvi um Decodificador de Texto, o qual permite a criptografia e a descriptografia de palavras. Este trabalho é parte do desafio proposto pelo programa Oracle Next Education - ONE, em parceria com a Alura.
+Olá! Neste projeto, desenvolvi um Decodificador de Texto, o qual permite a criptografia e a descriptografia de palavras. Este trabalho é parte do desafio proposto pelo programa Oracle Next Education - ONE, em parceria com a Alura.
 
 O Decodificador utiliza um método simples de substituição para transformar texto. As regras de criptografia são as seguintes:
 
