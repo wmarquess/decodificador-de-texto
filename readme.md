@@ -53,9 +53,7 @@ Implementei uma verificação que altera o layout da interface com base na inter
 Embora o projeto atenda aos requisitos básicos atualmente, tenho planos para aprimorá-lo, adicionando recursos que não foram implementados devido ao prazo de entrega.
 
 __1. Responsividade:__ Adicionar estilos responsivos para garantir uma ótima experiência em diferentes dispositivos e tamanhos de tela.
-<br>__2. Novas Funcionalidades:__ Implementar novos recursos que agreguem valor e melhorem a usabilidade da aplicação.
-<br>__3. Refatoração do Código:__ Revisar e refatorar o código para torná-lo mais limpo, modular e escalável.
-<br>__4. Testes e Depuração:__ Adicionar testes unitários e de integração para garantir a estabilidade e identificar possíveis problemas.
-<br>__5. Documentação:__ Criar uma documentação abrangente, incluindo instruções de instalação, uso e contribuição.
+<br>__2. Novas Funcionalidades:__ Implementar novos recursos.
+<br>__3. Refatoração do Código:__ Revisar e refatorar o código para torná-lo mais limpo.
 
 Essas melhorias futuras visam deixar esse projeto mais robusto.
