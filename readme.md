@@ -48,7 +48,7 @@ Implementei uma verificação que altera o layout da interface com base na inter
 
 </div>
 
-# Próximos Passos
+## Próximos Passos:
 
 Embora o projeto atenda aos requisitos básicos atualmente, tenho planos para aprimorá-lo, adicionando recursos que não foram implementados devido ao prazo de entrega.
 
