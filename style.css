@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    background-color: #F3F5FC;
+    box-sizing: border-box;
+}
+
+.logoAlura {
+    margin-left: 30px;
+    padding-top: 30px;
+    width: 5%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 2% auto 0; 
+    padding: 0 20px;
+    height: calc(100vh - 20px);
+    overflow: auto;
+}
+
+.entrada-formulario, .saida-formulario {
+    width: 45%;
+}
+
+.entrada-formulario {
+    display: flex;
+    flex-direction: column;         
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    border-radius: 32px;
+    padding: 10px 30px;
+    height: 79%;
+    width: 55%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+
+}
+
+.formulario {
+    background: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 22px;
+    padding: 20px;
+    width: 100%;
+    height: 77%;
+    resize: none;
+    box-shadow: inset 0px 0px 13px rgba(0, 0, 0, 0.1);
+}
+
+.formulario:focus {
+    outline: none; 
+}
+
+.saida-formulario {
+    display: flex;                  
+    flex-direction: column;         
+    justify-content: space-between; 
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 32px;
+    padding: 29px;
+    height: 75%;
+    width: 32%;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1); 
+}
+
+.mensagem-saida {
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: gray;
+    font-size: 22px;
+    text-transform: lowercase;
+    margin-top: 2%;
+    padding-left: 20px;
+    width: calc(100% - 10px);
+    height: 77%;
+    display: none;
+}
+
+.mensagem-vazia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+
+::placeholder { color: #495057; }
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensagem:focus {
+    outline: none;
+}
+
+.btnCopiar{
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #0A3871;
+    font-size: 22px;
+    cursor: pointer;
+    height: 57px;
+    width: 270px;
+    display: none; 
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.btnDescriptografar, .btnCriptografar {
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    height: 57px;
+    width: 240px;
+}
+
+.btnDescriptografar {
+    background: #D8DFE8;
+    color: #0A3871;
+    margin-left: 30px;
+}
+
+.btnCriptografar {
+    background: #0A3871;
+    color: white;
+}
+
+.informacao {                    
+    display: flex;               
+    align-items: center;         
+    justify-content: center; 
+    width: 100%;                 
+    margin-top: 20px;           
+}
+
+.informacao p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+.saida-formulario h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5%;
+
+}
+
+.saida-formulario p {
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.saida-formulario.active .mensagem-saida, 
+.saida-formulario.active .btnCopiar {
+    display: block;
+}
+
+.saida-formulario.active .mensagem-vazia {
+    display: none;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="logoAlura.svg" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section class="entrada-formulario">
+            <textarea class="formulario" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div class="informacao">
+                <img src="exclamacao.svg" alt="Imagem Alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="botoes">
+                <button aria-label="Criptografar" class="btnCriptografar" onclick="btnCriptografar()">Criptografar</button>
+                <button aria-label="Descriptografar" class="btnDescriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="saida-formulario">
+            <div class="mensagem-vazia">
+                <img src="olhandoLupa.svg" alt="Imagem de um boneco procurando algo olhando na lupa">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <textarea class="mensagem-saida" cols="20" rows="10" placeholder=""></textarea>
+            <button aria-label="Copiar" class="btnCopiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+    
